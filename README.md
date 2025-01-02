@@ -2,8 +2,6 @@
 
 <img src="https://github.com/akita11/SoundDropUNIT/blob/main/SoundDropUNIT.jpg" width="240px">
 
-<img src="https://github.com/akita11/SoundDropUNIT/blob/main/SoundDropUNIT_spk.jpg" width="240px">
-
 音声再生IC JQ8400を使用した音声再生モジュールです。4MBのフラッシュメモリを搭載しており、PCにmicroUSBケーブルで接続するとUSBメモリとして認識され、そこにMP3音声データ等をコピーします。その音声データをGrove端子のシリアル(UART)通信で再生制御できます。UIFlow(v1)用のブロックもあります。
 
 ※JQ8400に関する情報はWebページ等で検索してください。例えば[aitendoのモジュール](https://www.aitendo.com/product/15641)があります。
@@ -20,7 +18,10 @@
 
 ### スピーカを直接接続する場合
 
-基板上部にある1.25mmピッチコネクタ(Molex 53047-0210用)をとりつける端子があり、市販の小型スピーカ（M5Stack本体に使われているものなど。AliExpressやTaobaoでも同等品があります）を接続することができます。（冒頭の写真）
+<img src="https://github.com/akita11/SoundDropUNIT/blob/main/SoundDropUNIT_spk.jpg" width="240px">
+
+基板上部にある1.25mmピッチコネクタ(Molex 53047-0210用)をとりつける端子があり、市販の小型スピーカ（M5Stack本体に使われているものなど。AliExpressやTaobaoでも同等品があります）を接続することができます。※隙間がせまく差し込みにくいので注意してください。
+
 
 ### 3.5mmジャックに直接スピーカを接続する方法
 
