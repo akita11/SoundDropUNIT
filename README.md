@@ -10,8 +10,6 @@
 
 ## 使い方（接続方法）
 
-<img src="https://github.com/akita11/SoundDropUNIT/blob/main/SoundDropUNIT_terminal.jpg" width="240px">
-
 以下のようにスピーカやアンプを接続し、Grove端子からの制御で音声を再生します。
 
 
@@ -48,6 +46,11 @@
 - SoundDrop_Play : numに指定した「曲番号」の音声を再生します。
 - SoundDrop_Stop : 再生中の音声を停止します。
 
+
+### その他のソフトウエアでの使い方
+
+搭載されている音声再生IC(JQ8400)のデータシート等を参考に、制御コマンドを送信して使用してください。
+Arduino用にはライブラリがあるようなので、そちらを使ってもOKです。
 
 
 ## Author
